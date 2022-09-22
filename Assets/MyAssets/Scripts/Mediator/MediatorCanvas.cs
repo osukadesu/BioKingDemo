@@ -17,6 +17,7 @@ public class MediatorCanvas : MonoBehaviour
 
      [SerializeField]
     private CharacterSelect _character;
+    
 
     private void Awake()
     {
