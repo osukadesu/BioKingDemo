@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    private float speedmove = 10f, speedrotation = 200f;
+    private float speedmove = 15f, speedrotation = 200f;
     private float inputy = 0f, inputz = 0f;
     [SerializeField] private Animator anim;
     [SerializeField] private ManagerJoystick managerJoystick;
