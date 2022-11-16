@@ -11,11 +11,14 @@ public class CharacterSelect : MonoBehaviour
     [SerializeField]
     private Button _btnSave;
 
-    private MediatorCanvas _mediator;
+    [SerializeField]
+    private Button _btnBack;
 
+    private MediatorCanvas _mediator;
     private void Awake()
     {
         _btnSave.onClick.AddListener(() => _mediator.StartGame());
+        _btnBack.onClick.AddListener(() => _mediator.ViewRegistrar());
     }
 
     public void Configure(MediatorCanvas mediator)

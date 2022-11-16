@@ -7,6 +7,6 @@ public class SceneChange : MonoBehaviour
 {
     public void GoBack()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

@@ -7,9 +7,9 @@ public class AudioController : MonoBehaviour
     public static AudioController audioController;
     void Awake()
     {
-        if (AudioController.audioController == null)
+        if (audioController == null)
         {
-            AudioController.audioController = this;
+            audioController = this;
 
             DontDestroyOnLoad(gameObject);
         }

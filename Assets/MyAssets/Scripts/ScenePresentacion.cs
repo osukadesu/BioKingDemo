@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ScenePresentacion : MonoBehaviour
 {
-    private float tiempo = 3.6f;
+    private float tiempo = 3.53f;
     public void Update()
     {
         tiempo = tiempo - 1 * Time.deltaTime;
